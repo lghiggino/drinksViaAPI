@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto; 
+  /* width: 150px */
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{}
+/* <h1>Which Cocktail?</h1> */
+input{}
+/* <input type="text" name="" value=""> */
+button{}
+/* <button type="button" name="button">Get Cocktail</button> */
+
+section.results :nth-child(even){
+  background-color:whitesmoke;
+}
+/* <section class="description"> */
+		
+h2{}
+/* Name */
+
+img{}
+
+h4{}
+
+ul{}
+
+li{
+  background-color: white;
+}
+		

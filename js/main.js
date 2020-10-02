@@ -1,7 +1,7 @@
 //The user will enter a cocktail. Get a cocktail name, photo, and instructions and place them in the DOM
-const button = document.querySelector("button")
+const button = document.querySelector(".input-group")
 
-button.addEventListener("click", (e) => {
+function goFetch(e){
     e.preventDefault()
     const section = document.querySelector(".results")
     section.innerHTML = ""
@@ -51,4 +51,11 @@ button.addEventListener("click", (e) => {
         .catch(err => {
             console.log(`error ${err}`)
         });
+}
+
+button.addEventListener("click", goFetch)
+button.addEventListener("keyup", (e) => {
+    if(e.KeyCode==13){
+        goFetch
+    }else return
 })

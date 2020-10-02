@@ -22,6 +22,7 @@ img{
 /*******************************************/
 h1{}
 /* <h1>Which Cocktail?</h1> */
+<<<<<<< HEAD
 .input-group{
   margin: 0 auto; 
 }
@@ -30,6 +31,14 @@ button{}
 /* <button type="button" name="button">Get Cocktail</button> */
 
 section.results :nth-child(odd){
+=======
+input{}
+/* <input type="text" name="" value=""> */
+button{}
+/* <button type="button" name="button">Get Cocktail</button> */
+
+section.results :nth-child(even){
+>>>>>>> 22fc82224f0de20abed521e8bb2306ff4e340921
   background-color:whitesmoke;
 }
 /* <section class="description"> */
